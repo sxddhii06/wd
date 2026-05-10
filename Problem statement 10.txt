@@ -1,0 +1,21 @@
+10. implement a PHP program for string manipulation( eg. reverse, length, substring)
+
+<?php
+// Input string
+$string = "Hello, World!";
+
+// 1. Find string length
+$length = strlen($string);
+
+// 2. Reverse the string
+$reversed = strrev($string);
+
+// 3. Extract substring (start index = 0, length = 5)
+$substring = substr($string, 0, 5);
+
+// Display results
+echo "Original String: " . $string . "<br>";
+echo "Length of String: " . $length . "<br>";
+echo "Reversed String: " . $reversed . "<br>";
+echo "Substring (first 5 characters): " . $substring . "<br>";
+?>
