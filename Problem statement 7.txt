@@ -1,0 +1,44 @@
+7. Create a web page that uses javascript to display dynamic content using DOM.
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Dynamic DOM Example</title>
+ <style>
+ body {
+ font-family: Arial;
+ text-align: center;
+ margin-top: 50px;
+ }
+ button {
+ padding: 10px 15px;
+ font-size: 16px;
+ }
+ #content {
+ margin-top: 20px;
+ font-size: 18px;
+ color: blue;
+ }
+ </style>
+</head>
+<body>
+ <h2>Dynamic Content using JavaScript DOM</h2>
+ <button onclick="showContent()">Click Me</button>
+ <div id="content"></div>
+ <script>
+function showContent() {
+    // Create new paragraph element
+    var para = document.createElement("p");
+
+    // Create text node
+    var text = document.createTextNode("Hello! This content is generated dynamically using JavaScript DOM.");
+
+    // Append text to paragraph
+    para.appendChild(text);
+
+    // Display inside div
+    document.getElementById("content").appendChild(para);
+}
+</script>
+</body>
+</html>
