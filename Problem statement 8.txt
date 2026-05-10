@@ -1,0 +1,42 @@
+8. Write a javascript program for a simple calculator using functions and switchcase.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator</title>
+</head>
+<body>
+<h2>Simple Calculator</h2>
+<script>
+function calculate(num1, num2, operator) {
+let result;
+switch (operator) {
+case '+':
+result = num1 + num2;
+break;
+case '-':
+result = num1 - num2;
+break;
+case '*':
+result = num1 * num2;
+break;
+case '/':
+if (num2 === 0) {
+return "Cannot divide by zero";
+}
+result = num1 / num2;
+break;
+default:
+return "Invalid operator";
+}
+return result;
+}
+// Example usage
+let num1 = parseFloat(prompt("Enter first number:"));
+let num2 = parseFloat(prompt("Enter second number:"));
+let operator = prompt("Enter operator (+, -, *, /):");
+let output = calculate(num1, num2, operator);
+alert("Result: " + output);
+</script>
+</body>
+</html>
