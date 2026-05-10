@@ -1,0 +1,17 @@
+1.Create a simple html page displaying personal details using text formatting tags
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+    <h1>My Personal Details</h1>
+
+    <b>Name:</b> Siddhi Bacchewar  <br>
+    <i>Course:</i> BE <br>
+    <u>College:</u> NMIET College <br>
+    <mark>City:</mark> Pune <br>
+
+</body>
+</html>
