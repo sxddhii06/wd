@@ -1,0 +1,49 @@
+2.Design a web page that includes an image, hyperlink and a nested table.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PORSCHE</title>
+</head>
+<body>
+
+<h2>PORSCHE</h2>
+<img src="https://i.pinimg.com/736x/4f/4b/9d/4f4b9d8340fa6db8be27dfbcc11cd109.jpg" width="350" height="300">
+
+<h2>Hyperlink</h2>
+<a href="https://www.google.com">Visit Google</a>
+
+<h2>Porsche Details</h2>
+            <table border="1">
+
+    <tr>
+        <th>Car Name</th>
+        <th>Details</th>
+    </tr>
+
+    <tr>
+        <td>Porsche</td>
+
+        <td>
+
+            <table border="1">
+
+                <tr>
+                    <th>Color</th>
+                    <th>Speed</th>
+                </tr>
+
+                <tr>
+                    <td>Pink</td>
+                    <td>300 km/h</td>
+                </tr>
+
+            </table>
+
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
