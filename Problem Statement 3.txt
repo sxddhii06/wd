@@ -1,0 +1,28 @@
+3.Create a form with fields : name, email, gender, date of birth, and submit button
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<form>
+    Name:
+    <input type="text"><br><br>
+
+    Email:
+    <input type="email"><br><br>
+
+    Gender:
+    <input type="radio" name="g"> Male
+    <input type="radio" name="g"> Female<br><br>
+
+    Date of Birth:
+    <input type="date"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
