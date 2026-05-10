@@ -1,0 +1,12 @@
+9.Design a PHP script to display "WELCOME" message and current date & time.
+
+<?php
+// Display Welcome Message
+echo "<h2>Welcome to PHP Programming</h2>";
+
+// Display Current Date
+echo "Current Date: " . date("d-m-Y") . "<br>";
+
+// Display Current Time
+echo "Current Time: " . date("h:i:s A");
+?>
