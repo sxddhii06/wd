@@ -1,19 +1,41 @@
 7. Create a web page that uses javascript to display dynamic content using DOM.
 
-<!DOCTYPE html> 
-<html> 
-<head>    
-<title>DOM Example</title> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
 
-</head> 
-<body> 
-<h2 id="heading">Welcome</h2> 
-<button onclick="changeText()">    
-Click Here </button> 
-<script> function changeText() 
-{    
-document.getElementById("heading").innerHTML =    "Content Changed Using DOM"; 
-} 
-</script> 
-</body> 
+        #message {
+            color: blue;
+            font-size: 24px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>DOM Demonstration</h1>
+
+    <p id="message">Hello World!</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("message").innerHTML =
+                "Text Changed Using JavaScript DOM!";
+        }
+    </script>
+
+</body>
 </html>
